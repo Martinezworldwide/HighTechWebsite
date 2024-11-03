@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuristic Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Future<span>Web</span></div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle">Toggle Theme</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <h1>Welcome to the Future</h1>
+    <p>Experience the next generation of web design.</p>
+    <button class="cta-button">Get Started</button>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <h2>Our Features</h2>
+    <div class="features-container">
+      <div class="feature-card">
+        <i class="icon fas fa-magic"></i>
+        <h3>Interactive Design</h3>
+        <p>Engaging interfaces with smooth animations.</p>
+      </div>
+      <div class="feature-card">
+        <i class="icon fas fa-mobile-alt"></i>
+        <h3>Responsive Layout</h3>
+        <p>Optimized for all devices and screen sizes.</p>
+      </div>
+      <div class="feature-card">
+        <i class="icon fas fa-code"></i>
+        <h3>Modern Technologies</h3>
+        <p>Built with the latest web standards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <h2>3D Gallery</h2>
+    <canvas id="three-canvas"></canvas>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 FutureWeb. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
