@@ -1,2 +1,2 @@
 # HighTechWebsite
-martinezworldwide.github.io/HighTechWebsite
+https://martinezworldwide.github.io/HighTechWebsite
